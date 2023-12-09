@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Converter.Speed"
+             BackgroundColor="Beige">
+    <StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="entry" WidthRequest="125" Keyboard="Numeric"></Entry>
+
+                <Picker x:Name="input" WidthRequest="140" Title="Выберите единицу" FontSize="15">
+                    <Picker.Items>
+                        <x:String>Mile per hour</x:String>
+                        <x:String>Km per hour</x:String>
+                        <x:String>Meter per seconds</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Конвертировать" Clicked="Button_Click">
+                </Button >
+            </StackLayout>
+
+
+            <StackLayout Orientation="Horizontal" >
+                <Entry x:Name="result" WidthRequest="125" Keyboard="Numeric" IsReadOnly="True"></Entry>
+
+                <Picker x:Name="output" WidthRequest="140" Title="Выберите единицу" FontSize="15">
+                    <Picker.Items>
+                        <x:String>Mile per hour</x:String>
+                        <x:String>Km per hour</x:String>
+                        <x:String>Meter per seconds</x:String>
+                    </Picker.Items>
+                </Picker>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" >
+                <Button Text="Поменять единицы местами" Clicked="Button_Click_Reverse">
+                </Button >
+            </StackLayout>
+
+        </StackLayout>
+
+    </StackLayout>
+</ContentPage>

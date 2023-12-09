@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "LQeIKo20rM9/JaPM/GMYjL4Evi+2yZ506yLEKB8hJJavREcg2mnXMCcx3CX4X00FvDPF+8SWKb1TNJfplSkScw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tellu\\source\\repos\\Converter\\Converter.iOS\\Converter.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tellu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\tellu\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\tellu\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

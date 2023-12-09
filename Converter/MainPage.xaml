@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Converter.MainPage">
+
+    <StackLayout Padding="20" VerticalOptions="Center" HorizontalOptions="Center">
+
+        <StackLayout Orientation="Horizontal" Margin="0,0,30,0">
+            <Button ClassId="Long" Clicked="Button_Clicked" WidthRequest="250" HeightRequest="100" BackgroundColor="Gray" Text="Конвертер единиц длины" TextColor="White">
+
+            </Button >
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Button ClassId="Weight" Clicked="Button_Clicked" WidthRequest="250" HeightRequest="100" BackgroundColor="Gray" Text="Конвертер единиц массы" TextColor="White">
+
+            </Button>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Button ClassId="Energy" Clicked="Button_Clicked" WidthRequest="250" HeightRequest="100" BackgroundColor="Gray" Text="Конвертер единиц энергии" TextColor="White">
+
+            </Button>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Button ClassId="Speed" Clicked="Button_Clicked"  WidthRequest="250" HeightRequest="100" BackgroundColor="Gray" Text="Конвертер единиц скорости" TextColor="White">
+
+            </Button>
+        </StackLayout>
+
+
+        <StackLayout Orientation="Horizontal">
+            <Button ClassId="Square" Clicked="Button_Clicked"  WidthRequest="250" HeightRequest="100" BackgroundColor="Gray" Text="Конвертер единиц площади" TextColor="White">
+
+            </Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
